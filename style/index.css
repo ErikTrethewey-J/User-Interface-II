@@ -1,4 +1,4 @@
-/* Add CSS styling here */
+/* Add CSS styling here
 /* CSS Rest */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -21,12 +21,13 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -48,6 +49,88 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} 
 
 /* CSS Reset End */
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    border:1px solid grey;
+}
+
+h1 {
+    font-size: 200%;
+    margin: 0px 0px 0px 0px;
+    padding: 50px 50px 0px 50px;
+    font-weight: 900;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+}
+
+nav {
+    padding:30px 20px 30px 70px;
+    width:28%;
+    height: auto;
+    display: inline-block;
+}
+
+.button {
+    color: rgb(192, 132, 3);
+    padding: 5px 5px 5px 5px; 
+    background-color: #515554;
+    border: 3px solid black;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.e {
+    background-color: forestgreen; 
+}
+
+/* Image 1 */
+
+.a {
+    width: 20%;
+    height: auto;
+}
+/*  */
+
+.b {
+    display: flex;
+}
+
+.c{
+ display: flex;
+ flex-direction: column;
+ justify-content: end; 
+}
+
+.d {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+   } 
+
+   .f {
+       display:flex;
+       flex-direction: row;
+   }
+
+   .container {
+        padding: 20px;
+        width: 15%;
+   }
+
+   .g {
+       display:flex;
+       
+   }
