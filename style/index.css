@@ -53,12 +53,12 @@ table {
 
 /* CSS Reset End */
 
-/* *{
+*{
     box-sizing:border-box;
     padding:0;
     margin:0;
     border:1px solid grey;
-} */
+}
 
 h1 {
     font-size: 200%;
@@ -118,7 +118,7 @@ h2 {
 
 .a {
     padding: 20px 100px 10px 20px;
-    width: 50%;
+    width: 43%;
     height: auto;
 }
 /*  */
@@ -128,6 +128,7 @@ h2 {
 }
 
 .c{
+    width: fit-content;
  display: flex;
  flex-direction: column;
 }
@@ -167,4 +168,21 @@ h2 {
 
    .i {
        background: rgb(143, 81, 22);
+   }
+
+   .j {
+       font-size: 140%;
+       font-weight: 900;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       margin: 50px 7px 0px 10px;
+   }
+
+   .button3 {
+    margin: 0px 7px 100px 50px;
+    color: rgb(192, 132, 3);
+    padding: 10px 20px 10px 20px; 
+    background-color: #515554;
+    border: 3px solid black;
    }
