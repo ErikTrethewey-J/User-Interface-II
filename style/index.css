@@ -62,8 +62,7 @@ table {
 
 h1 {
     font-size: 200%;
-    margin: 0px 0px 0px 0px;
-    padding: 50px 50px 0px 50px;
+    padding: 30px 50px 0px 50px;
     font-weight: 900;
 }
 
@@ -79,9 +78,23 @@ nav {
     display: inline-block;
 }
 
+h2 {
+    font-weight: 900;
+    font-size: 200%;
+    width: 100%;
+    padding: 100px 400px 10px 50px;
+}
+
 .button {
     color: rgb(192, 132, 3);
     padding: 5px 5px 5px 5px; 
+    background-color: #515554;
+    border: 3px solid black;
+}
+.button2 {
+    margin: 0px 700px 0px 50px;
+    color: rgb(192, 132, 3);
+    padding: 2px 20px 2px 20px; 
     background-color: #515554;
     border: 3px solid black;
 }
@@ -91,14 +104,21 @@ nav {
     color: white;
 }
 
+.button2:hover {
+    background-color: black;
+    color: white;
+}
+
 .e {
+    width: 100%;
     background-color: forestgreen; 
 }
 
 /* Image 1 */
 
 .a {
-    width: 20%;
+    padding: 20px 100px 10px 20px;
+    width: 50%;
     height: auto;
 }
 /*  */
@@ -110,10 +130,10 @@ nav {
 .c{
  display: flex;
  flex-direction: column;
- justify-content: end; 
 }
 
 .d {
+    padding: 25px 50px 50px 50px;
     width: 50%;
     display: flex;
     flex-wrap: wrap; 
@@ -143,4 +163,8 @@ nav {
        text-align: center;
        display: flex;
        flex-direction: column;
+   }
+
+   .i {
+       background: rgb(143, 81, 22);
    }
